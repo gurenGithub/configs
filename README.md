@@ -70,3 +70,15 @@ module.exports = {
   ]
 }
 ```
+
+### umd libs
+```javascript
+{
+ output:{
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'dist'),
+    libraryTarget: 'umd', //(设置 library 规范)
+    globalObject: 'this', //（设置全局环境）
+  }
+}
+```
