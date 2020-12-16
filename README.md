@@ -21,7 +21,7 @@ module.exports = {
 
 ```
 
-## scss-loader.configs
+## scss-loader
 ```javascript
 {
     test: /\.scss$/,
@@ -43,6 +43,21 @@ module.exports = {
         loader: 'sass-loader' // 将 Sass 编译成 CSS
     }]
 }
+
+### url-loader
+```javascript
+{
+       test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+            },
+          },
+        ]
+      }
+```
 ```
 ### .babelrc
 ```javascript
