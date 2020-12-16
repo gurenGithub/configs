@@ -3,7 +3,7 @@
 module.exports = {
   plugins: {
     autoprefixer: {},
-    /* main.js  引入 i m p ort 'amfe-flexible' */
+    /* main.js  引入 import 'amfe-flexible' */
     'postcss-pxtorem': {
       rootValue: 192, // PC换算的基数192
       propList: ['*'],
