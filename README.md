@@ -44,7 +44,7 @@ module.exports = {
     }]
 }
 ```
-###.babelrc
+### .babelrc
 ```javascript
 {
   "presets": [
