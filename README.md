@@ -44,3 +44,14 @@ module.exports = {
     }]
 }
 ```
+###.babelrc
+```javascript
+{
+  "presets": [
+      "es2015"
+  ], 
+  "plugins": [
+    "transform-runtime"
+  ]
+}
+```
