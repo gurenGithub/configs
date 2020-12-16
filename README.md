@@ -20,3 +20,27 @@ module.exports = {
 }
 
 ```
+
+## scss-loader.configs
+```javascript
+{
+    test: /\.scss$/,
+    use: [
+    /*{
+            loader: MiniCssExtractPlugin.loader
+          },*/
+    {
+        loader: 'style-loader' // 将 Sass 编译成 CSS
+    },
+    {
+        // Interprets CSS
+        loader: "css-loader",
+        options: {
+            //importLoaders: 2
+        }
+    },
+    {
+        loader: 'sass-loader' // 将 Sass 编译成 CSS
+    }]
+}
+```
