@@ -44,6 +44,7 @@ module.exports = {
     }]
 }
 
+```
 ### url-loader
 ```javascript
 {
@@ -57,7 +58,6 @@ module.exports = {
           },
         ]
       }
-```
 ```
 ### .babelrc
 ```javascript
